@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="util-vpl">
+      <UniqueIdentifier>{a138c48b-318b-4e3b-b770-9d8b98f5b43d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="vpl-capture.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="util-vpl\capture-frames-d3d11.cpp">
+      <Filter>util-vpl</Filter>
+    </ClCompile>
+    <ClCompile Include="util-vpl\hw-device-d3d11.cpp">
+      <Filter>util-vpl</Filter>
+    </ClCompile>
+    <ClCompile Include="util-vpl\util.cpp">
+      <Filter>util-vpl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util-vpl\capture-frames.h">
+      <Filter>util-vpl</Filter>
+    </ClInclude>
+    <ClInclude Include="util-vpl\defs.h">
+      <Filter>util-vpl</Filter>
+    </ClInclude>
+    <ClInclude Include="util-vpl\hw-device.h">
+      <Filter>util-vpl</Filter>
+    </ClInclude>
+    <ClInclude Include="util-vpl\util.h">
+      <Filter>util-vpl</Filter>
+    </ClInclude>
+    <ClInclude Include="util-vpl\vpl-timing.h">
+      <Filter>util-vpl</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
